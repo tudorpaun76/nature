@@ -1,0 +1,91 @@
+body{
+	background-image: url("background.jpg");
+}
+
+.firstTree{
+	float: left;
+	margin: 10px;
+	position: absolute;
+	
+}
+
+.secondTree{
+	float:right;
+	margin: 10px;
+	display:auto;
+	width:20%;
+	right: 200px;
+	position: absolute;
+	
+}
+
+.thirdTree{
+    float:right;
+	margin: 10px;
+	display:auto;
+	width:65%;
+	right: 400px;
+
+}
+
+.textone{
+	position: absolute;
+	background-color: green;
+	
+}
+.pines{
+	background-color: green;
+	position:absolute;
+	width:20%;
+	right: 200px;
+	float:right;
+	top: 520px;
+}
+
+.oak{
+	background-color: green;
+	position:absolute;
+	width:20%;
+	right: 850px;
+	float:right;
+	top: 520px;
+}
+
+
+/* @MEDIA USE */
+
+
+@media screen and (max-width: 992px){
+	.textone{
+	position: absolute;
+	background-color: green;
+	
+}
+.pines{
+	background-color: green;
+	position:absolute;
+	width:20%;
+	
+}
+
+.oak{
+	background-color: green;
+	position:absolute;
+	width:20%;
+	
+}
+.firstTree{
+	display: none;
+	
+}
+
+.secondTree{
+	display: none;
+	
+}
+
+.thirdTree{
+    display:none;
+
+}
+}
